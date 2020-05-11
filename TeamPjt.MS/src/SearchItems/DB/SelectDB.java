@@ -71,9 +71,6 @@ public class SelectDB {
 			
 			Label totalNum = (Label)root.lookup("#totalNum");
 			totalNum.setText("Total : "+prdInfo.size()+" items");
-			/*
-			 * 상품명, 상품가격, 할인가격, 색상, 평점
-			 */
 			
 			rs.close();
 			pStmt.close();
@@ -83,10 +80,5 @@ public class SelectDB {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-	}
-
-	private ImageView ImageView(Image image) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 }
