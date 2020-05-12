@@ -16,7 +16,7 @@ import javafx.scene.layout.VBox;
 
 public class SelectDB {
 	final static String DRIVER = "org.sqlite.JDBC";
-	final static String DB = "jdbc:sqlite:C:/강민성 JAVA 취업반/JAVA강의/팀프로젝트/작업폴더/project.db";
+	final static String DB = "jdbc:sqlite:src/project.db";
 	
 	public void KeywordSearch(Parent root, String keyword, String orderStr, String searchCat, String priceOpt, String sizeOpt) {
 		try {
